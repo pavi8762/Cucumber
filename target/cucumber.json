@@ -1,0 +1,310 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-16T12:18:03.537Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1395651613,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.SetDriver()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Provide the search function to the user to have quick access to the required product",
+        "description": "",
+        "id": "search-funtionality-in-amazon-website;provide-the-search-function-to-the-user-to-have-quick-access-to-the-required-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1275595647,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "She is alreay in the Amazon Home Page",
+            "match": {
+              "location": "AmazonSearchSteps.she_is_alreay_in_the_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2804461449,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on search bar and type \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop",
+                  "offset": 35
+                }
+              ],
+              "location": "AmazonSearchSteps.user_click_on_search_bar_and_type_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 355584139,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be shown all the available \"Laptop\" in the inventory",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop",
+                  "offset": 40
+                }
+              ],
+              "location": "AmazonSearchSteps.user_should_be_shown_all_the_available_something_in_the_inventory(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 379491,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should not see the \"Dell\" in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dell",
+                  "offset": 25
+                }
+              ],
+              "location": "AmazonSearchSteps.user_should_not_see_the_something_in_the_list(String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-16T12:18:09.393Z",
+        "before": [
+          {
+            "result": {
+              "duration": 953546121,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.SetDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Provide the search function to the user to have quick access to the required product",
+        "description": "",
+        "id": "search-funtionality-in-amazon-website;provide-the-search-function-to-the-user-to-have-quick-access-to-the-required-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1364279737,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "She is alreay in the Amazon Home Page",
+            "match": {
+              "location": "AmazonSearchSteps.she_is_alreay_in_the_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1775311718,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on search bar and type \"Mobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile",
+                  "offset": 35
+                }
+              ],
+              "location": "AmazonSearchSteps.user_click_on_search_bar_and_type_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82731768,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be shown all the available \"Mobile\" in the inventory",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile",
+                  "offset": 40
+                }
+              ],
+              "location": "AmazonSearchSteps.user_should_be_shown_all_the_available_something_in_the_inventory(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 215131,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should not see the \"Samsung\" in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samsung",
+                  "offset": 25
+                }
+              ],
+              "location": "AmazonSearchSteps.user_should_not_see_the_something_in_the_list(String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-16T12:18:13.573Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1003717625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.SetDriver()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Provide the search function to the user to have quick access to the required product",
+        "description": "",
+        "id": "search-funtionality-in-amazon-website;provide-the-search-function-to-the-user-to-have-quick-access-to-the-required-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1498157960,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "She is alreay in the Amazon Home Page",
+            "match": {
+              "location": "AmazonSearchSteps.she_is_alreay_in_the_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2439193050,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on search bar and type \"HeadPhones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HeadPhones",
+                  "offset": 35
+                }
+              ],
+              "location": "AmazonSearchSteps.user_click_on_search_bar_and_type_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79472829,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should be shown all the available \"HeadPhones\" in the inventory",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HeadPhones",
+                  "offset": 40
+                }
+              ],
+              "location": "AmazonSearchSteps.user_should_be_shown_all_the_available_something_in_the_inventory(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 298006,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should not see the \"Dell\" in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dell",
+                  "offset": 25
+                }
+              ],
+              "location": "AmazonSearchSteps.user_should_not_see_the_something_in_the_list(String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Search funtionality in Amazon website",
+    "description": "",
+    "id": "search-funtionality-in-amazon-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/SearchFunction.feature",
+    "tags": [
+      {
+        "name": "@Search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
